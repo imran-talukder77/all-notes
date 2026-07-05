@@ -17,13 +17,6 @@ main{
     margin-top: 20px;
 }
 
-footer{
-    text-align: center;
-    padding: 10px;
-    background-color: #f2f2f2;
-    margin-top: 80px;
-}
-
 .pdf-container3{
     background-color: #d56dd5;
     padding: 5% 10%;
@@ -46,12 +39,12 @@ footer{
     border-radius: 10px;
     margin: 10px;
 }
-.first8{
+
+/* .first8{
     display: flex;
     justify-content:space-evenly;
-    align-items: center;
     flex-wrap: wrap;
-}
+} */
 
 button{
     background-color: #00bfff;
@@ -59,4 +52,9 @@ button{
     border: none;
     border-radius: 5px;
     cursor: pointer;
+}
+
+footer{
+    text-align: center;
+    margin-top: 80px;
 }
