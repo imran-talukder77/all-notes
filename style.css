@@ -32,29 +32,22 @@ main{
     color: #f9d41d;
 }
 
+footer{
+    text-align: center;
+    margin-top: 80px;
+}
 #sec1{
     background-color: #d56dd5;
     padding: 5% 10%;
     border: 5px solid #68b81d;
     border-radius: 10px;
     margin: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    
 }
 
-/* .first8{
-    display: flex;
-    justify-content:space-evenly;
-    flex-wrap: wrap;
-} */
-
-button{
-    background-color: #00bfff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-footer{
-    text-align: center;
-    margin-top: 80px;
+#sec1 .h3s{
+    grid-column: 1 / -1;
 }
