@@ -1,7 +1,8 @@
-a{
+a {
     text-decoration: none;
 }
-ul{
+
+ul {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -10,14 +11,14 @@ ul{
 
 }
 
-main{
+main {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     margin-top: 20px;
 }
 
-.pdf-container3{
+.pdf-container3 {
     background-color: #d56dd5;
     padding: 5% 10%;
     border: 5px solid #68b81d;
@@ -26,20 +27,21 @@ main{
     text-align: center;
 }
 
-.h3s{
+#sec1 {
+    background-color: #d56dd5;
+    padding: 5% 10%;
+    border: 5px solid #68b81d;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.h3s {
     text-align: center;
     margin-top: 20px;
     color: #f9d41d;
 }
 
-footer{
+footer {
     text-align: center;
     margin-top: 80px;
-}
-#sec1{
-    background-color: #d56dd5;
-    padding: 5% 10%;
-    border: 5px solid #68b81d;
-    border-radius: 10px;
-    margin: 10px;
 }
